@@ -1,10 +1,8 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+                
 * {
-    padding: 0;
     margin: 0;
-}
-
-body {
-    background: #FFF
+    padding: 0;
 }
 
 a {
@@ -12,155 +10,119 @@ a {
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
+    margin-bottom: 95px;
+    margin-top: 40px;
 }
 
-.header__logo {
+.flex {
     display: flex;
-    width: 35px;
-    height: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    gap: 14px;
+    justify-content: space-between;
     align-items: center;
 }
 
-.logo_title1 {
-    color: #000;
-    font-family: 'Gilroy-Bold';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    }
+.container {
+    width: 1172px;
+    margin: 0 auto;
+   }
 
-.logo_title2 {
-    color: #F25822;
-    font-family: 'Gilroy-Bold';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    }
-
-.header__menu {
-    font-family: 'Gilroy-SemiBold';
-    display: flex;
-    gap: 30px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 600px;
+.nav {
+    width: 533px;
 }
 
-.link__home {
-    color: #F25822;
-    font-family: 'Gilroy-SemiBold';
+.header-link {
+    color: #000;
+    font-family: 'Gilroy-Medium', sans-serif;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-weight: 400;    
 }
 
-.links {
+.header-link:hover {
+    color: #F25822;
+    font-family: 'Gilroy-Bold', sans-serif;       
+}
+
+.current {
     color: #000;
-    font-family: 'Gilroy-Medium';
+    font-family: 'Gilroy-Medium', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    border: none;
+	position: relative;
+	outline: none;
 }
 
-.center {
-    padding-left: calc(50% - 586px);
-    padding-right: calc(50% - 586px);
+.main {
+    padding-bottom: 103px;
 }
 
-.top {
-    display: flex;
-    gap: 41px;
-    margin-left: 30px;
-    padding-top: 40px;
-    padding-bottom: 167px;
+.main-left, .main-right {
+    width: 47%;
 }
 
-.text_title {
-    width: 522px;
+.title {
+    margin-top: 60px;
     color: #000;
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 60px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    margin-bottom: 17px;  
 }
 
-.text_paragraph {
-    width: 466px;
+.text {
     color: #888;
-    font-family: 'Gilroy-Medium';
+    font-family: 'Gilroy-Medium', sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    padding-top: 17px;
+    margin-bottom: 35px; 
+    width: 466px;   
 }
 
-.content_buttons {
+.top__btn {
     display: flex;
-    padding-top: 37px;
-    gap: 72px;
-    align-items: center;
+    gap: 27px;    
 }
 
-.content_button {
-    width: 140px;
-    height: 50px;
-    flex-shrink: 0;
+.btn_start {    
     border-radius: 50px;
+    border: 0;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-    border: 0;
-}
-
-.start_now_button {
-    color: #FFF;
-    font-family: 'Gilroy-Bold';
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.content_button_video {
-    background-color: #FFF;
-    width: 90px;
-    height: 19px;
-    border: 0;
-}
-
-.watch_video_button {
-    color: #AAA;
-    font-family: 'Gilroy-Bold';
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.top-image {
-    width: 544px;
-    height: 374px;
-}
-
-.top_logo__brands {
-    display: flex;
-    gap: 48px;
-    margin-top: 97px;
-    margin-bottom: 97px;
-}
-
-.brand_logo {
-    width: 160px;
+    width: 140px;
     height: 50px;
+    flex-shrink: 0; 
+    color: #FFF;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 400; 
+    text-decoration: none; 
+}
+
+.btn_start:hover {
+    background: #AAA;
+    
+}
+
+.btn_video {
+    text-decoration: none;
+    color: #AAA;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 50px;
+    background: #FFF;
+    width: 140px;
+    height: 50px;
+    border: 0; 
+}
+
+.btn_video:hover {
+    color: #F25822;
+}
+
+.logos {    
+    margin-bottom: 100px;
+}
+
+.product-logo {
+    padding-top: 100px;
 }
